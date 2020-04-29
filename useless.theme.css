@@ -1,0 +1,47 @@
+/**
+ * @name Useless
+ * @author AquaDev
+ * @version 1.0
+ * @description For the useless goddess Aqua. The cute, but amazing, useless goddess.
+ * @website https://www.aquadev.xyz/
+ * @source https://github.com/vipzdev
+ * @donate https://www.paypal.me/vipzmodz
+*/
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css");
+
+/* BlackBox user tags */
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+  /* Image variables */
+  --BG-image: url("https://images6.alphacoders.com/805/thumb-1920-805552.png"); 
+  --BG-image-blur: 5px;  /* MUST END IN px (0px) | DEFAULT: 5px */
+
+  /* Brightness variables */
+  --BG-serverlist-brightness: 0.8;  /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --BG-left-brightness: 0.8;  /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --BG-right-brightness: 0.6;  /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --BG-popout-brightness: 0.7;  /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+
+  /* Tint variables */
+  --BG-tint-colour: 255, 51, 159;  /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
+  --BG-tint-brightness: 0;  /* Intensity of --BG-tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+
+  --BG-gradient-one: 23, 209, 190; 
+  --BG-gradient-two: 9, 111, 214; 
+  --BG-gradient-direction: -45deg;  /* DEFAULT: -45deg */
+
+  /* Other variables */
+  --BG-window-padding: 20px;  /* Space between Discord window and Discord itself | DEFAULT: 20px */
+  --BG-window-roundness: 10px;  /* Edges of Discord | DEFAULT: 10px */
+  --BG-left-right-split: 0;  /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
+
+  /*
+  */
+  --BG-font: "Whitney";
+  /* Font of Discord | DEFAULT: Whitney */
+}
